@@ -8,22 +8,25 @@
     <title>Vallkree</title>
     <meta name="viewport" content="initial-scale=1.0, width=device-width" />
     <link rel="stylesheet" href="product-viewer.css" />
+    
 </head>
 
 <body>
     <div id="product_viewer"></div>
     <script src="product-viewer.js"></script>
     <script>
-        var showroom = {
-          demo : './img/demo/'
-        }
+        const showroom = {
+          demo : './img/demo/',
+          drifter : './img/drifter_matt-black/'
+        },
+        model = "drifter"
         ,productViewer = new ProductViewer({
             element: document.getElementById("product_viewer"),
-            imagePath: showroom.demo,
+            imagePath: "./img/drifter_matt-black/",
             //imagePath: "https://cdn.vallkree.com/360/demo/",
-            filePrefix: "img",
-            fileExtension: ".png",
-            numberOfImages: 50,
+            filePrefix: "img_",
+            fileExtension: ".jpg",
+            numberOfImages: 101,
         });
 
         // once loaded, give it a 360 spin
