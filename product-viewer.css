@@ -27,8 +27,13 @@
   cursor: grabbing
 }
 
-#product_viewer {width: 1024px;}
-#product_viewer img {width: 100%;}
+#product_viewer--wrapper {max-width: 1024px;  width: 100%; margin:auto;}
+#product_viewer {width: 100%; height:0; padding-top:56.25%; overflow: hidden;}
+#product_viewer img {
+  width: 100%;
+  filter: brightness(1.1);
+  position: absolute; top: 0; left: 0; width: 100%;
+}
 
 #product_viewer {
   position: relative;
@@ -51,7 +56,7 @@
   /*background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 66%, rgba(0,212,255,1) 100%)*/
   /*background: radial-gradient(circle, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 66%, rgba(255,255,255,1) 100%),radial-gradient(ellipse, rgba(255,255,255,0) 65%, rgba(255,255,255,1) 69%, rgba(255,255,255,1) 100%);*/
   background:
-    /*radial-gradient(ellipse,rgba(39,46,63,0) 60%, rgba(39,46,63,0.1)),*/
-    radial-gradient(ellipse, rgba(255,255,255,0) 65%, rgba(255,255,255,1) 69%, rgba(255,255,255,1) 100%),
+    radial-gradient(ellipse, rgba(39,46,63,0) 60%, rgba(39,46,63,0.1) ),
+    radial-gradient(ellipse, rgba(255,255,255,0) 55%, rgba(255,255,255,1) 69%, rgba(255,255,255,1) 100%),
     radial-gradient(circle, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 66%, rgba(255,255,255,1) 100%);
 };
