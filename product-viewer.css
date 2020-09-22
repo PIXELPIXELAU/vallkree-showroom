@@ -29,7 +29,7 @@
   cursor: grabbing
 }
 
-#product_viewer--wrapper {max-width: 1024px;  width: 100%; margin:auto;}
+#product_viewer--wrapper {/*max-width: 1024px;*/  width: 100%; margin:auto;}
 #product_viewer {width: 100%; height:0; padding-top:56.25%; overflow: hidden;}
 #product_viewer img {
   width: 100%;
