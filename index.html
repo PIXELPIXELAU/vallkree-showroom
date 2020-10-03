@@ -7,34 +7,26 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Vallkree</title>
     <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-    <link rel="stylesheet" href="product-viewer.css?20200922.1425" />
+    <link rel="stylesheet" href="css/product-viewer.css?20200922.1425" />
 
 </head>
 
 <body data-version="20200922.1425">
     <div id="product_viewer--wrapper">
+      <!--canvas id="product_viewer" width="458" height="458"></canvas-->
       <div id="product_viewer"></div>
     </div>
-    <script src="product-viewer.js?20200922.1425"></script>
-    <script>
-        const showroom = {
-          demo : './img/demo/',
-          drifter : './img/drifter_matt-black/'
-        },
-        model = "drifter"
-        ,productViewer = new ProductViewer({
-            element: document.getElementById("product_viewer"),
-            imagePath: "./img/drifter_matt-black/",
-            //imagePath: "https://cdn.vallkree.com/360/demo/",
-            filePrefix: "img_",
-            fileExtension: ".jpg",
-            numberOfImages: 101,
-        });
+    <div id="bikes">
+    </div>
 
-        // once loaded, give it a 360 spin
-        productViewer.once("loaded", function() {
-            productViewer.animate360();
-        });
+    <script src="./js/product-viewer.js?20200922.1425"></script>
+    <!--script src="https://code.createjs.com/1.0.0/createjs.min.js"></script-->
+    <script src="./js/product-viewer2.js?20200922.1425"></script>
+    <script src="./js/main.js"></script>
+
+    <script>
+
+
     </script>
 </body>
 
