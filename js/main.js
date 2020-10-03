@@ -31,7 +31,7 @@ function init(){
     ["scramber_matt-black","scramber_matt-black",117],
     ["drifter_silver-alt","drifter_silver-alt",152],
     ["sidecar","sidecar",135],
-    ["the-mechanic","dual-motors_dope-lemon",131],
+    ["the-mechanism","dual-motors_dope-lemon",131],
     ["surf-bike_matt-black","surf-bike_matt-black",115],
     ["dual-motors_dope-lemon-alt","dual-motors_dope-lemon-alt",102],
     ["surf-bike_military-beige","surf-bike_military-beige",170],
