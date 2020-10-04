@@ -20,7 +20,7 @@ function init(){
     ["dragster_matt-black","dragster_matt-black",178],
     ["happy-good_silver","happy-good_silver",168],
     ["drifter_army-green","drifter_army-green",109],
-    ["ladies_black--gloss","ladies_black--gloss",143],
+    ["the-penny-lane-street-gypsie","ladies_black--gloss",143],
     ["drifter_gloss-blue-gray","drifter_gloss-blue-gray",120],
     ["ladies_red--gloss","ladies_red--gloss",118],
     ["drifter_matt-black","drifter_matt-black",133],
