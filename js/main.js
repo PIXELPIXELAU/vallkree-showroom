@@ -2,35 +2,56 @@
 //Initialise the bikes array
 window.bikes = {};
 const $productViewerWrapper = document.getElementById("product_viewer--wrapper")
-const $productViewer = document.getElementById("product_viewer")
+const $productViewer = document.getElementById("product_viewer");
+const debug = !(window.location.host == "showroom.vallkree.com");
+if (debug) {
+  console.log = function() {};
+  console.info = function() {};
+}
 function init(){
   const showroom = {
     demo : './img/demo/',
     drifter : './img/drifter_matt-black/'
   },
-  model = "drifter",
+  model = "the-drifter",
   models = [
     ["demo","drifter_matt-black",101],
-    ["belt-drive_army-green","belt-drive_army-green",137],
-    ["happy-good_blue-grey--gloss","happy-good_blue-grey--gloss",133],
-    ["belt-drive_matt-black","belt-drive_matt-black",131],
-    ["happy-good_gold","happy-good_gold",171],
-    ["happy-good_matt-black","happy-good_matt-black",125],
-    ["happy-good_military-beige","happy-good_military-beige",109],
-    ["dragster_matt-black","dragster_matt-black",178],
-    ["happy-good_silver","happy-good_silver",168],
-    ["drifter_army-green","drifter_army-green",109],
+
+    ["belt-drive","belt-drive_matt-black",131],
+    ["belt-drive-twin-seat--matt-black","belt-drive_matt-black",131],
+    ["belt-drive-twin-seat--army-green","belt-drive_army-green",137],
+
+    ["the-war-child-dragster","dragster_matt-black",178],
+    ["the-war-child-dragster--matt-black","dragster_matt-black",178],
+
+    ["happy-good","the-moon-dog-twin-seat_matt-black",125],
+    ["the-moon-dog-twin-seat--matt-black","happy-good_matt-black",125],
+    ["the-moon-dog-twin-seat--gold","happy-good_gold",171],
+    ["the-moon-dog-twin-seat--military-beige","happy-good_military-beige",109],
+    ["the-moon-dog-twin-seat--silver","happy-good_silver",168],
+    ["the-moon-dog-twin-seat--blue-grey-gloss","happy-good_blue-grey--gloss",133],
+
     ["the-penny-lane-street-gypsie","ladies_black--gloss",143],
     ["the-penny-lane-street-gypsie--black-gloss","ladies_black--gloss",143],
     ["the-penny-lane-street-gypsie--red-gloss","ladies_red--gloss",118],
-    ["drifter_gloss-blue-gray","drifter_gloss-blue-gray",120],
-    ["drifter_matt-black","drifter_matt-black",133],
-    ["mini-drifter_silver","mini-drifter_silver",122],
-    ["drifter_military-beige","drifter_military-beige",134],
-    ["scramber_army-green","scramber_army-green",115],
-    ["drifter_silver","drifter_silver",118],
-    ["scramber_matt-black","scramber_matt-black",117],
-    ["drifter_silver-alt","drifter_silver-alt",152],
+
+    ["the-drifter","drifter_matt-black",133],
+    ["the-drifter--very-matt-black","drifter_matt-black",133],
+    ["the-drifter--planet-green","drifter_army-green",109],
+    ["the-drifter--blue-moon-gloss","drifter_gloss-blue-gray",120],
+    ["the-drifter--desert-storm","drifter_military-beige",134],
+    ["the-drifter--silver-bullet-gloss","drifter_silver",118],
+    ["the-drifter--silver-alt","drifter_silver-alt",152],
+
+
+    ["the-yakuza-mini-drifter","mini-drifter_silver",122],
+    ["the-yakuza-mini-drifter--silver","mini-drifter_silver",122],
+
+    ["the-terremotto-scrambler","scramber_matt-black",117],
+    ["the-terremotto-scrambler--matt-black","scramber_matt-black",117],
+    ["the-terremotto-scrambler--army-green","scramber_army-green",115],
+
+
     ["sidecar","sidecar",135],
 
     ["the-mechanism","dual-motors_dope-lemon",131],
@@ -38,8 +59,9 @@ function init(){
     ["the-mechanism--military-beige","dual-motors_military-beige",102],
     ["the-mechanism--ultra-dope-lemon-mega-plus","dual-motors_dope-lemon-alt",102],
 
-    ["surf-bike_matt-black","surf-bike_matt-black",115],
-    ["surf-bike_military-beige","surf-bike_military-beige",170],
+    ["the-bodhi-surf-bike","surf-bike_matt-black",115],
+    ["the-bodhi-surf-bike--very-matt-black","surf-bike_matt-black",115],
+    ["the-bodhi-surf-bike--desert-storm","surf-bike_military-beige",170],
 
   ];
   models.sort(function(a,b){
@@ -109,3 +131,28 @@ if (window.location.host == "") {
 init360();
 
 console.log(bikes);
+
+
+$(function(){
+	//if on bikes page
+  $('.single-option-selector').on('change',function(){
+    $('label','.product__form--add-to-cart').each(function(i,v){
+      let $this = $(v),
+          text = $this.text(),
+          id = "";
+      if ((text == "Color") || text == "Colour") {
+        id = $this.attr('for');
+        var value = $('#'+id).val(),
+            colour = value.toLowerCase().replace(/\s/gi,'-'),
+        	slug = $('body').attr('id')+'--'+colour;
+          console.log(slug);
+          $('iframe','#product_viewer--iframe').attr('src','https://showroom.vallkree.com/?bike='+slug);
+          $('.product__photo.grid__item').prop('hidden',true);
+          $('img[src*="'+colour+'"]','.product__photo.grid__item').each(function(i,v){
+            $(v).closest('.product__photo').attr('hidden',false);
+          });
+          return false;
+      };
+    });
+  });
+});
