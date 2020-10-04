@@ -32,11 +32,16 @@ function init(){
     ["scramber_matt-black","scramber_matt-black",117],
     ["drifter_silver-alt","drifter_silver-alt",152],
     ["sidecar","sidecar",135],
+
     ["the-mechanism","dual-motors_dope-lemon",131],
+    ["the-mechanism--dope-lemon","dual-motors_dope-lemon",131],
+    ["the-mechanism_military-beige","dual-motors_military-beige",102]
+    ["the-mechanism_ultra-dope-lemon-mega-plus","dual-motors_dope-lemon-alt",102],
+
     ["surf-bike_matt-black","surf-bike_matt-black",115],
-    ["dual-motors_dope-lemon-alt","dual-motors_dope-lemon-alt",102],
+
     ["surf-bike_military-beige","surf-bike_military-beige",170],
-    ["dual-motors_military-beige","dual-motors_military-beige",102]
+
   ];
   models.sort(function(a,b){
     return (a[0] > b[0] ? 1 : -1);
@@ -97,6 +102,10 @@ console.log(bike);
 // Init
 //window.addEventListener('load', init360(bike), false);
 
+if (window.location.host == "") {
+  var $bikes = document.getElementById('bikes');
+  $bikes.removeAttribute('hidden');
+}
 
 init360();
 
