@@ -18,8 +18,8 @@ function init(){
     ["demo","drifter_matt-black",101],
 
     ["belt-drive","belt-drive_matt-black",131],
-    ["belt-drive-twin-seat--matt-black","belt-drive_matt-black",131],
-    ["belt-drive-twin-seat--army-green","belt-drive_army-green",137],
+    ["the-belt-drive--matt-black","belt-drive_matt-black",131],
+    ["the-belt-drive--army-green","belt-drive_army-green",137],
 
     ["the-war-child-dragster","dragster_matt-black",178],
     ["the-war-child-dragster--matt-black","dragster_matt-black",178],
@@ -131,28 +131,3 @@ if (window.location.host == "") {
 init360();
 
 console.log(bikes);
-
-
-$(function(){
-	//if on bikes page
-  $('.single-option-selector').on('change',function(){
-    $('label','.product__form--add-to-cart').each(function(i,v){
-      let $this = $(v),
-          text = $this.text(),
-          id = "";
-      if ((text == "Color") || text == "Colour") {
-        id = $this.attr('for');
-        var value = $('#'+id).val(),
-            colour = value.toLowerCase().replace(/\s/gi,'-'),
-        	slug = $('body').attr('id')+'--'+colour;
-          console.log(slug);
-          $('iframe','#product_viewer--iframe').attr('src','https://showroom.vallkree.com/?bike='+slug);
-          $('.product__photo.grid__item').prop('hidden',true);
-          $('img[src*="'+colour+'"]','.product__photo.grid__item').each(function(i,v){
-            $(v).closest('.product__photo').attr('hidden',false);
-          });
-          return false;
-      };
-    });
-  });
-});
