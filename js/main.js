@@ -35,9 +35,8 @@ function init(){
 
     ["the-mechanism","dual-motors_dope-lemon",131],
     ["the-mechanism--dope-lemon","dual-motors_dope-lemon",131],
-
-    ["the-mechanism_military-beige","dual-motors_military-beige",102],
-    ["the-mechanism_ultra-dope-lemon-mega-plus","dual-motors_dope-lemon-alt",102],
+    ["the-mechanism--military-beige","dual-motors_military-beige",102],
+    ["the-mechanism--ultra-dope-lemon-mega-plus","dual-motors_dope-lemon-alt",102],
 
     ["surf-bike_matt-black","surf-bike_matt-black",115],
     ["surf-bike_military-beige","surf-bike_military-beige",170],
