@@ -26,7 +26,7 @@ function init(){
     ["the-war-child-dragster","dragster_matt-black",178],
     ["the-war-child-dragster--matt-black","dragster_matt-black",178],
 
-    ["happy-good","the-moon-dog-twin-seat_matt-black",125],
+    ["the-moon-dog-twin-seat","happy-good_matt-black",125],
     ["the-moon-dog-twin-seat--matt-black","happy-good_matt-black",125],
     ["the-moon-dog-twin-seat--gold","happy-good_gold",171],
     ["the-moon-dog-twin-seat--military-beige","happy-good_military-beige",109],
@@ -39,9 +39,9 @@ function init(){
 
     ["the-drifter","drifter_matt-black",133],
     ["the-drifter--very-matt-black","drifter_matt-black",133],
-    ["the-drifter--planet-green","drifter_army-green",109],
+    ["the-drifter--planet-green-matte","drifter_army-green",109],
     ["the-drifter--blue-moon-gloss","drifter_gloss-blue-gray",120],
-    ["the-drifter--desert-storm","drifter_military-beige",134],
+    ["the-drifter--desert-storm-matte","drifter_military-beige",134],
     ["the-drifter--silver-bullet-gloss","drifter_silver",118],
     ["the-drifter--silver-alt","drifter_silver-alt",152],
 
