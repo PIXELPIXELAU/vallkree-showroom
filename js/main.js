@@ -3,11 +3,13 @@
 window.bikes = {};
 const $productViewerWrapper = document.getElementById("product_viewer--wrapper")
 const $productViewer = document.getElementById("product_viewer");
-const debug = !(window.location.host == "showroom.vallkree.com");
+const debug = (window.location.host == "showroom.vallkree.com");
 if (debug) {
   console.log = function() {};
   console.info = function() {};
 }
+var $body = document.getElementById('body');
+console.log('version:',$body.getAttribute('data-version'));
 function init(){
   const showroom = {
     demo : './img/demo/',
@@ -17,7 +19,7 @@ function init(){
   models = [
     ["demo","drifter_matt-black",101],
 
-    ["belt-drive","belt-drive_matt-black",131],
+    ["the-belt-drive","belt-drive_matt-black",131],
     ["the-belt-drive--matt-black","belt-drive_matt-black",131],
     ["the-belt-drive--army-green","belt-drive_army-green",137],
 
