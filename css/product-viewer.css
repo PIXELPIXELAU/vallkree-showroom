@@ -45,7 +45,7 @@
 }
 #product_viewer--wrapper,
 #product_viewer {
-  background-position: 50% 50%; background-repeat: no-repeat; background-size: contain; background-color: white;
+  background-position: 50% 50%; background-repeat: no-repeat; background-size: contain; background-color: rgba(245,245,247,1);
 }
 #product_viewer {
 
