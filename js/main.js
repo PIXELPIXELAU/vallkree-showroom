@@ -61,9 +61,9 @@ function init(){
     ["1612594728","the-mechanism--military-beige","dual-motors_military-beige",102,"military+beige"],
     ["1612594728","the-mechanism--ultra-dope-lemon-mega-plus","dual-motors_dope-lemon-alt",102,"dope+lemon-ultra"],
 
-    ["","the-bodhi-surf-bike","surf-bike_matt-black",115],
-    ["","the-bodhi-surf-bike--very-matt-black","surf-bike_matt-black",115],
-    ["","the-bodhi-surf-bike--desert-storm","surf-bike_military-beige",170],
+    ["4649764618286","the-bodhi-surf-bike","surf-bike_matt-black",115,"very+black+-+matte"],
+    ["4649764618286","the-bodhi-surf-bike--very-matt-black","surf-bike_matt-black",115,"very+black+-+matte"],
+    ["4649764618286","the-bodhi-surf-bike--desert-storm","surf-bike_military-beige",170,"desert+storm+-+matte"],
 
   ];
   models.sort(function(a,b){
