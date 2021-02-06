@@ -48,8 +48,8 @@ function init(){
     ["","the-yakuza-mini-drifter","mini-drifter_silver",122],
     ["","the-yakuza-mini-drifter--silver","mini-drifter_silver",122],
 
-    ["","the-terremotto-scrambler","scramber_matt-black",117],
-    ["","the-terremotto-scrambler--matt-black","scramber_matt-black",117],
+    ["4649602875438","the-terremotto-scrambler","scramber_matt-black",117],
+    ["4649602875438","the-terremotto-scrambler--matt-black","scramber_matt-black",117],
     ["","the-terremotto-scrambler--army-green","scramber_army-green",115],
 
 
