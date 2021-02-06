@@ -146,7 +146,8 @@ if (params) {
 }
 
 $body.setAttribute('data-productid',bike.id);
-$body.setAttribute('data-producename',bike.name);
+$body.setAttribute('data-productname',bike.name);
+$body.setAttribute('data-productcolour',bike.colour);
 
 //$productViewerWrapper.setAttribute('style','background-image:url("'+bike.path+'img_01.jpg")');
 $productViewer.setAttribute('style','background-image:url("'+bike.path+'img_01.jpg")');
