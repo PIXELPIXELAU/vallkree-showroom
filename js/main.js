@@ -134,7 +134,7 @@ if (params) {
       console.log('3')
       //let colour = bike = params.colour
       var result = bike.filter((v)=>v.colour==params.productcolour);
-      if (result.length > 0) bike = result[0]
+      if (result.length > 0) bike = result
     }
     console.log('4')
     bike = bike[0]
