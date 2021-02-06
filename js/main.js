@@ -19,9 +19,9 @@ function init(){
   model = "the-drifter",
   models = [
     ["","demo","drifter_matt-black",101],
-    ["4658199494702","the-belt-drive","belt-drive_matt-black",131],
-    ["4658199494702","the-belt-drive--matt-black","belt-drive_matt-black",131],
-    ["","the-belt-drive--army-green","belt-drive_army-green",137],
+    ["4658199494702","the-belt-drive","belt-drive_matt-black",131,'very+black+-+matte'],
+    ["4658199494702","the-belt-drive--matt-black","belt-drive_matt-black",131,'very+black+-+matte'],
+    ["4658199494702","the-belt-drive--army-green","belt-drive_army-green",137,'planet+green+-+matte'],
 
     ["","the-war-child-dragster","dragster_matt-black",178],
     ["","the-war-child-dragster--matt-black","dragster_matt-black",178],
@@ -126,25 +126,33 @@ if (search != "") {
 
 if (params) {
   // alert('here');
+  console.log('1')
   bike = bikes.filter((v)=>v.id==params.productid);
   if (bike.length > 0) {
+    console.log('2')
     if (params.productcolour && params.productcolour !="") {
+      console.log('3')
       //let colour = bike = params.colour
-      bike = bike.filter((v)=>v.colour==params.productcolour);
+      var result = bike.filter((v)=>v.colour==params.productcolour);
+      if (result.length > 0) bike = result[0]
     }
+    console.log('4')
     bike = bike[0]
   } else {
+    console.log('5')
     bike = bikes.filter((v)=>v.name=="demo")[0]  
   }
+  console.log('6')
 
   // var $a = document.getElementById(bike.slug);
   // $a.setAttribute('style',"font-weight:bold;")
 } else {
+  console.log('7')
   // alert('not here');
   // bike = bikes['demo'];
   bike = bikes.filter((v)=>v.name=="demo")[0]
 }
-
+console.log(bike);
 $body.setAttribute('data-productid',bike.id);
 $body.setAttribute('data-productname',bike.name);
 $body.setAttribute('data-productcolour',bike.colour);
