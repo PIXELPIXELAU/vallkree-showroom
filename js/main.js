@@ -46,8 +46,8 @@ function init(){
     ["","the-drifter--silver-alt","drifter_silver-alt",152],
 
 
-    ["","the-yakuza-mini-drifter","mini-drifter_silver",122],
-    ["","the-yakuza-mini-drifter--silver","mini-drifter_silver",122],
+    ["4649764061230","the-yakuza-mini-drifter","mini-drifter_silver",122,"silver"],
+    ["4649764061230","the-yakuza-mini-drifter--silver","mini-drifter_silver",122,"silver"],
 
     ["4649602875438","the-terremotto-scrambler","scramber_matt-black",117,"very+black+-+matte"],
     ["4649602875438","the-terremotto-scrambler--matt-black","scramber_matt-black",117,"very+black+-+matte"],
