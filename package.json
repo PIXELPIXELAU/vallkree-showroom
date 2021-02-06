@@ -1,0 +1,23 @@
+{
+  "name": "vallkree-showroom",
+  "description": "https://github.com/ferrybrouwer/360-product-viewer https://codepen.io/barrychampion/pen/oxvYKO",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pixelpixelau/vallkree-showroom.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pixelpixelau/vallkree-showroom/issues"
+  },
+  "homepage": "https://github.com/pixelpixelau/vallkree-showroom#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

@@ -5,13 +5,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Vallkree</title>
+    <title>Vallkree Showroom</title>
     <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-    <link rel="stylesheet" href="css/product-viewer.css?20201005.1302" />
+    <link rel="stylesheet" href="css/product-viewer.css?20201005.1303" />
 
 </head>
 
 <body id="body" data-version="20201005.1302">
+  
     <div id="product_viewer--wrapper">
       <!--canvas id="product_viewer" width="458" height="458"></canvas-->
       <div id="product_viewer"></div>
@@ -19,15 +20,34 @@
     <div id="bikes" hidden>
     </div>
 
-    <script src="./js/product-viewer.js?20201005.1302"></script>
+    <script src="./js/product-viewer.js?20201005.1304"></script>
     <!--script src="https://code.createjs.com/1.0.0/createjs.min.js"></script-->
     <script src="./js/product-viewer2.js?20201005.1302"></script>
     <script src="./js/main.js?20201005.1302"></script>
-
-    <script>
-
-
-    </script>
+<div id="loader">
+    <svg version="1.1" id="L2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+  <circle fill="none" stroke="#fff" stroke-width="4" stroke-miterlimit="10" cx="50" cy="50" r="48"/>
+  <line fill="none" stroke-linecap="round" stroke="#fff" stroke-width="4" stroke-miterlimit="10" x1="50" y1="50" x2="85" y2="50.5">
+    <animateTransform 
+         attributeName="transform" 
+         dur="2s"
+         type="rotate"
+         from="0 50 50"
+         to="360 50 50"
+         repeatCount="indefinite" />
+  </line>
+  <line fill="none" stroke-linecap="round" stroke="#fff" stroke-width="4" stroke-miterlimit="10" x1="50" y1="50" x2="49.5" y2="74">
+    <animateTransform 
+         attributeName="transform" 
+         dur="15s"
+         type="rotate"
+         from="0 50 50"
+         to="360 50 50"
+         repeatCount="indefinite" />
+  </line>
+  </svg>
+</div>
 </body>
 
 </html>
