@@ -128,9 +128,9 @@ if (params) {
   // alert('here');
   bike = bikes.filter((v)=>v.id==params.productid);
   if (bike.length > 0) {
-    if (params.productcolor && params.productcolor !="") {
+    if (params.productcolour && params.productcolour !="") {
       //let colour = bike = params.colour
-      bike = bike.filter((v)=>v.colour==params.productcolor);
+      bike = bike.filter((v)=>v.colour==params.productcolour);
     }
     bike = bike[0]
   } else {
