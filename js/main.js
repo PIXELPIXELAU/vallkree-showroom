@@ -3,6 +3,7 @@
 window.bikes = [];
 const $productViewerWrapper = document.getElementById("product_viewer--wrapper")
 const $productViewer = document.getElementById("product_viewer");
+
 const debug = (window.location.host == "showroom.vallkree.com");
 if (debug) {
   console.log = function() {};
@@ -138,6 +139,9 @@ if (params) {
   // bike = bikes['demo'];
   bike = bikes.filter((v)=>v.name=="demo")[0]
 }
+
+$body.setAttribute('data-productid',bike.id);
+$body.setAttribute('data-producename',bike.name);
 
 //$productViewerWrapper.setAttribute('style','background-image:url("'+bike.path+'img_01.jpg")');
 $productViewer.setAttribute('style','background-image:url("'+bike.path+'img_01.jpg")');
