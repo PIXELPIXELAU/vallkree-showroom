@@ -49,9 +49,9 @@ function init(){
     ["","the-yakuza-mini-drifter","mini-drifter_silver",122],
     ["","the-yakuza-mini-drifter--silver","mini-drifter_silver",122],
 
-    ["4649602875438","the-terremotto-scrambler","scramber_matt-black",117],
-    ["4649602875438","the-terremotto-scrambler--matt-black","scramber_matt-black",117],
-    ["","the-terremotto-scrambler--army-green","scramber_army-green",115],
+    ["4649602875438","the-terremotto-scrambler","scramber_matt-black",117,"very+black+-+matte"],
+    ["4649602875438","the-terremotto-scrambler--matt-black","scramber_matt-black",117,"very+black+-+matte"],
+    ["4649602875438","the-terremotto-scrambler--army-green","scramber_army-green",115,"planet+green+-+matte"],
 
 
     ["","sidecar","sidecar",135],
@@ -78,6 +78,7 @@ function init(){
         name : bike[1] || "",
         path : "./img/"+bike[2]+"/",
         frames : bike[3] || 50,
+        colour : bike[4] || ""
     };
     b.name = b.name.replace(/(\-|_)/gi," ");
     // var $div = document.createElement('DIV');
@@ -127,6 +128,10 @@ if (params) {
   // alert('here');
   bike = bikes.filter((v)=>v.id==params.productid);
   if (bike.length > 0) {
+    if (params.productcolor && params.productcolor !="") {
+      //let colour = bike = params.colour
+      bike = bike.filter((v)=>v.colour==params.productcolor);
+    }
     bike = bike[0]
   } else {
     bike = bikes.filter((v)=>v.name=="demo")[0]  
