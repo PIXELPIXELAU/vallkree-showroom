@@ -57,11 +57,12 @@ function init(){
     ["","sidecar","sidecar",135],
 
     
-    ["4649764814894","the-mechanism--military-beige","dual-motors_military-beige",102,"military+beige"],
+    ["4649764814894","the-mechanism","dual-motors_military-beige",102,"military+beige"],
     ["4649764814894","the-mechanism","dual-motors_dope-lemon",131,"dope+lemon"],
     ["4649764814894","the-mechanism--dope-lemon","dual-motors_dope-lemon",131,"dope+lemon"],
     ["4649764814894","the-mechanism--military-beige","dual-motors_military-beige",102,"military+beige"],
 
+    ["4713965715502","dope-lemon","dual-motors_dope-lemon-alt",102,"dope+lemon"],
     ["4713965715502","the-mechanism--ultra-dope-lemon-mega-plus","dual-motors_dope-lemon-alt",102,"dope+lemon"],
     ["4713965715502","the-mechanism","dual-motors_dope-lemon",131,"dope+lemon"],
 
