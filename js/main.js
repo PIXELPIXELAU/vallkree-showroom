@@ -54,7 +54,7 @@ function init(){
     ["4649602875438","the-terremotto-scrambler--army-green","scramber_army-green",115,"planet+green+-+matte"],
 
 
-    ["","sidecar","sidecar",135],
+    ["4658246975534","vallkree-sidecar","sidecar",135,"sidecar"],
 
     
     ["4649764814894","the-mechanism","dual-motors_military-beige",102,"military+beige"],
