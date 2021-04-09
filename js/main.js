@@ -23,6 +23,8 @@ function init(){
     ["4658199494702","the-belt-drive--matt-black","belt-drive_matt-black",131,'very+black+-+matte'],
     ["4658199494702","the-belt-drive--army-green","belt-drive_army-green",137,'planet+green+-+matte'],
 
+    
+
     ["4649764585518","the-war-child-dragster","dragster_matt-black",178],
     ["4649764585518","the-war-child-dragster--matt-black","dragster_matt-black",178],
 
@@ -45,6 +47,17 @@ function init(){
     ["4351754010670","the-drifter--silver-bullet-gloss","drifter_silver",118,"silver+bullet+-+gloss"],
     ["4351754010670","the-drifter--silver-alt","drifter_silver-alt",152,"silver+bullet+-+gloss"],
 
+    // ["6548399456302","the-drifter","drifter_silver",118,"silver+bullet+-+gloss"],
+    ["6548399456302","the-drifter","drifter_military-beige",134,"desert+storm+-+matte"],
+    ["6548399456302","the-drifter--very-matt-black","drifter_matt-black",133,"very+black+-+matte"],
+    ["6548399456302","the-drifter--planet-green-matte","drifter_army-green",109,"planet+green+-+matte"],
+    ["6548399456302","the-drifter--blue-moon-gloss","drifter_gloss-blue-gray",120,"blue+moon+-+gloss"],
+    ["6548399456302","the-drifter--desert-storm-matte","drifter_military-beige",134,"desert+storm+-+matte"],
+    ["6548399456302","the-drifter--silver-bullet-gloss","drifter_silver",118,"silver+bullet+-+gloss"],
+    ["6548399456302","the-drifter--silver-alt","drifter_silver-alt",152,"silver+bullet+-+gloss"],
+
+    
+
 
     ["4649764061230","the-yakuza-mini-drifter","mini-drifter_silver",122,"silver"],
     ["4649764061230","the-yakuza-mini-drifter--silver","mini-drifter_silver",122,"silver"],
@@ -57,10 +70,9 @@ function init(){
     ["4658246975534","vallkree-sidecar","sidecar",135,"sidecar"],
 
     
-    ["4649764814894","the-mechanism","dual-motors_military-beige",102,"military+beige"],
-    ["4649764814894","the-mechanism","dual-motors_dope-lemon",131,"dope+lemon"],
-    ["4649764814894","the-mechanism--dope-lemon","dual-motors_dope-lemon",131,"dope+lemon"],
-    ["4649764814894","the-mechanism--military-beige","dual-motors_military-beige",102,"military+beige"],
+    ["4649764814894","the-mechanism-24","dual-motors_military-beige",102,"military+beige"],
+    ["4649764814894","the-mechanism-24","dual-motors_military-beige",102,"military+beige"],
+  
 
     ["4713965715502","dope-lemon","dual-motors_dope-lemon",102,"dope+lemon"],
     ["4713965715502","the-mechanism--ultra-dope-lemon-mega-plus","dual-motors_dope-lemon-alt",102,"dope+lemon"],
