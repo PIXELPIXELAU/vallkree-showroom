@@ -102,7 +102,5 @@
   }
 } 
 @media only screen and (max-width:959px){
-  
-  
   #product_viewer:after {max-height: 2rem;}
 }

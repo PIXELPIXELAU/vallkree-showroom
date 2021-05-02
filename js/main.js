@@ -47,18 +47,7 @@ function init(){
     ["4351754010670","the-drifter--silver-bullet-gloss","drifter_silver",118,"silver+bullet+-+gloss"],
     ["4351754010670","the-drifter--silver-alt","drifter_silver-alt",152,"silver+bullet+-+gloss"],
 
-    // ["6548399456302","the-drifter","drifter_silver",118,"silver+bullet+-+gloss"],
-    ["6548399456302","the-drifter","drifter_military-beige",134,"desert+storm+-+matte"],
-    ["6548399456302","the-drifter--very-matt-black","drifter_matt-black",133,"very+black+-+matte"],
-    ["6548399456302","the-drifter--planet-green-matte","drifter_army-green",109,"planet+green+-+matte"],
-    ["6548399456302","the-drifter--blue-moon-gloss","drifter_gloss-blue-gray",120,"blue+moon+-+gloss"],
-    ["6548399456302","the-drifter--desert-storm-matte","drifter_military-beige",134,"desert+storm+-+matte"],
-    ["6548399456302","the-drifter--silver-bullet-gloss","drifter_silver",118,"silver+bullet+-+gloss"],
-    ["6548399456302","the-drifter--silver-alt","drifter_silver-alt",152,"silver+bullet+-+gloss"],
-
     
-
-
     ["4649764061230","the-yakuza-mini-drifter","mini-drifter_silver",122,"silver"],
     ["4649764061230","the-yakuza-mini-drifter--silver","mini-drifter_silver",122,"silver"],
 
@@ -72,6 +61,24 @@ function init(){
     
     ["4649764814894","the-mechanism-24","dual-motors_military-beige",102,"military+beige"],
     ["4649764814894","the-mechanism-24","dual-motors_military-beige",102,"military+beige"],
+    
+    ["6548399456302","the-mechanism-26","mechanism-26_musk",1,"musk"],
+    ["6548399456302","the-mechanism-26--desert-storm-matt","mechanism-26_desert-storm-matt",1,"desert+storm+-+matte"],
+    ["6548399456302","the-mechanism-26--matt-grey","mechanism-26_matt-grey",1,"matt+grey"],
+    ["6548399456302","the-mechanism-26--musk","mechanism-26_musk",1,"musk"],
+    ["6548399456302","the-mechanism-26--planet-green","mechanism-26_planet-green",1,"planet+green+matte"],
+    ["6548399456302","the-mechanism-26--very-black-matt","mechanism-26_very-black-matt",1,"very+black+matte"],
+
+    // ["6548399456302","the-drifter","drifter_silver",118,"silver+bullet+-+gloss"],
+    // ["6548399456302","the-drifter","drifter_military-beige",134,"desert+storm+-+matte"],
+    // ["6548399456302","the-drifter--very-matt-black","drifter_matt-black",133,"very+black+-+matte"],
+    // ["6548399456302","the-drifter--planet-green-matte","drifter_army-green",109,"planet+green+-+matte"],
+    // ["6548399456302","the-drifter--blue-moon-gloss","drifter_gloss-blue-gray",120,"blue+moon+-+gloss"],
+    // ["6548399456302","the-drifter--desert-storm-matte","drifter_military-beige",134,"desert+storm+-+matte"],
+    // ["6548399456302","the-drifter--silver-bullet-gloss","drifter_silver",118,"silver+bullet+-+gloss"],
+    // ["6548399456302","the-drifter--silver-alt","drifter_silver-alt",152,"silver+bullet+-+gloss"],
+
+    
   
 
     ["4713965715502","dope-lemon","dual-motors_dope-lemon",102,"dope+lemon"],
