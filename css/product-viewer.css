@@ -57,7 +57,7 @@ html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}main{display:b
 
 #product_viewer--wrapper,
 #product_viewer {
-  background-position: 50% 50%; background-repeat: no-repeat; background-size: contain; background-color: rgba(245,245,247,1);
+  background-position: 50% 50%; background-repeat: no-repeat; background-size: contain; background-color: white; background-color: rgb(245,245,247);
 }
 
 
