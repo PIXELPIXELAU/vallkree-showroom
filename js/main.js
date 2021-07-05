@@ -59,8 +59,21 @@ function init(){
     ["4658246975534","vallkree-sidecar","sidecar",135,"sidecar"],
 
     
-    ["4649764814894","the-mechanism-24","dual-motors_military-beige",102,"military+beige"],
-    ["4649764814894","the-mechanism-24","dual-motors_military-beige",102,"military+beige"],
+    // ["4649764814894","the-mechanism-24","dual-motors_military-beige",102,"military+beige"],
+    // ["4649764814894","the-mechanism-24","dual-motors_military-beige",102,"military+beige"],
+    ["4649764814894","the-mechanism-24","dual-motors__very-black--matte",1,"military+beige"],
+    // https://showroom.vallkree.com/?bike=the-mechanism-24&productid=4649764814894
+    ["4649764814894","the-mechanism-24--military-beige","dual-motors__military-beige",1,"military+beige"],
+    // https://showroom.vallkree.com/?v=1625526989&productid=4649764814894&productcolour=desert+storm+-+matte
+    ["4649764814894","the-mechanism-24--desert-storm-matte","dual-motors__desert-storm-matte",1,"desert+storm+-+matte"],
+    // https://showroom.vallkree.com/?v=1625527009&productid=4649764814894&productcolour=very+black+-+matte
+    ["4649764814894","the-mechanism-24--very-black-matte","dual-motors__very-black--matte",1,"very+black+-+matte"],
+    // https://showroom.vallkree.com/?v=1625527023&productid=4649764814894&productcolour=planet+green+-+matte
+    ["4649764814894","the-mechanism-24--planet-green-matte","dual-motors__planet-green--matte",1,"planet+green+-+matte"],
+    // https://showroom.vallkree.com/?v=1625527034&productid=4649764814894&productcolour=silver+bullet+-+gloss
+    ["4649764814894","the-mechanism-24--silver-bullet-gloss","dual-motors__silver-bullet--gloss",1,"silver+bullet+-+gloss"],
+    //https://showroom.vallkree.com/?v=1625527044&productid=4649764814894%20disabled&productcolour=airforce+grey+-+matte
+    ["4649764814894","the-mechanism-24--airforce-gray-matte","dual-motors__airforce-grey-matte",1,"airforce+grey+-+matte"],
     
     ["6548399456302","the-mechanism-26","mechanism-26_musk",1,"musk"],
     ["6548399456302","the-mechanism-26--desert-storm-matt","mechanism-26_desert-storm-matt",1,"desert+storm+-+matte"],
