@@ -163,8 +163,9 @@ if (search != "") {
 
 if (params) {
   // alert('here');
-  console.log('1')
-  bike = bikes.filter((v)=>v.id==params.productid);
+  console.log('*****',params.productid)
+  const productid = (!!params.productid) ? params.productid.split(' ')[0] : '';
+  bike = bikes.filter((v)=>v.id==productid);
   if (bike.length > 0) {
     console.log('2')
     if (params.productcolour && params.productcolour !="") {
