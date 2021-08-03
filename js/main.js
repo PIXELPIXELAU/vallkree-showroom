@@ -34,6 +34,7 @@ function init(){
     ["4649764487214","the-moon-dog-twin-seat--military-beige","happy-good_military-beige",109,"desert+storm+-+matte"],
     ["4649764487214","the-moon-dog-twin-seat--silver","happy-good_silver",168,"silver+bullet+-+gloss"],
     ["4649764487214","the-moon-dog-twin-seat--blue-grey-gloss","happy-good_blue-grey--gloss",133,"blue+moon+-+gloss"],
+    ["4649764487214","the-moon-dog-twin-seat--planet-green-matte","happy-good__planet-green--matte",1,"planet+green+-+matte"],
 
     ["4649764782126","the-penny-lane-street-gypsie","ladies_red--gloss",118,"ladies_red--gloss"],
     ["4649764782126","the-penny-lane-street-gypsie--black-gloss","ladies_black--gloss",143,"gloss+black"],
@@ -50,6 +51,7 @@ function init(){
     
     ["4649764061230","the-yakuza-mini-drifter","mini-drifter_silver",122,"silver"],
     ["4649764061230","the-yakuza-mini-drifter--silver","mini-drifter_silver",122,"silver"],
+    ["4649764061230","the-yakuza-mini-drifter--matt-black","mini-drifter__matt-black",1,"matt+black"],
 
     ["4649602875438","the-terremotto-scrambler","scramber_army-green",115,"planet+green+-+matte"],
     ["4649602875438","the-terremotto-scrambler--matt-black","scramber_matt-black",117,"very+black+-+matte"],
@@ -81,6 +83,7 @@ function init(){
     ["6548399456302","the-mechanism-26--musk","mechanism-26_musk",1,"musk"],
     ["6548399456302","the-mechanism-26--planet-green","mechanism-26_planet-green",1,"planet+green+matte"],
     ["6548399456302","the-mechanism-26--very-black-matt","mechanism-26_very-black-matt",1,"very+black+matte"],
+    ["6548399456302","the-mechanism-26--silver","mechanism-26__silver",1,"silver"],
 
     // ["6548399456302","the-drifter","drifter_silver",118,"silver+bullet+-+gloss"],
     // ["6548399456302","the-drifter","drifter_military-beige",134,"desert+storm+-+matte"],
@@ -97,7 +100,9 @@ function init(){
     ["4713965715502","dope-lemon","dual-motors_dope-lemon",102,"dope+lemon"],
     ["4713965715502","the-mechanism--ultra-dope-lemon-mega-plus","dual-motors_dope-lemon-alt",102,"dope+lemon"],
     ["4713965715502","the-mechanism","dual-motors_dope-lemon",131,"dope+lemon"],
-
+    ["4713965715502","dope-lemon--very-black-matte","dope-lemon__very-black-matte",1,"very+black+-+matte"], //https://showroom.vallkree.com/?v=1627957720&productid=4713965715502&productcolour=very+black+-+matte
+    
+    
     ["4649764618286","the-bodhi-surf-bike","surf-bike_military-beige",170,"desert+storm+-+matte"],
     ["4649764618286","the-bodhi-surf-bike--very-matt-black","surf-bike_matt-black",115,"very+black+-+matte"],
     ["4649764618286","the-bodhi-surf-bike--desert-storm","surf-bike_military-beige",170,"desert+storm+-+matte"],
