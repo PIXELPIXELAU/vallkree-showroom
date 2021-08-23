@@ -77,7 +77,7 @@ function init(){
     //https://showroom.vallkree.com/?v=1625527044&productid=4649764814894%20disabled&productcolour=airforce+grey+-+matte
     ["4649764814894","the-mechanism-24--airforce-gray-matte","dual-motors__airforce-grey-matte",1,"airforce+grey+-+matte"],
     
-    ["6548399456302","the-mechanism-26","mechanism-26_musk",1,"musk"],
+    ["6548399456302","the-mechanism-26","mechanism-26_matt-grey",1,"matt+grey"],
     ["6548399456302","the-mechanism-26--desert-storm-matt","mechanism-26_desert-storm-matt",1,"desert+storm+-+matte"],
     ["6548399456302","the-mechanism-26--matt-grey","mechanism-26_matt-grey",1,"matt+grey"],
     ["6548399456302","the-mechanism-26--musk","mechanism-26_musk",1,"musk"],
